@@ -1,0 +1,394 @@
+{
+  "python": {
+    "easy": [
+      {
+        "question": "What is the output of print(3 + 2)?",
+        "options": ["5", "6", "32", "Error"],
+        "answer": 0,
+        "explanation": "3 + 2 evaluates to 5."
+      },
+      {
+        "question": "Which keyword is used to define a function in Python?",
+        "options": ["func", "define", "def", "function"],
+        "answer": 2,
+        "explanation": "Functions in Python start with the 'def' keyword."
+      },
+      {
+        "question": "What data type is used for True/False values?",
+        "options": ["int", "str", "bool", "float"],
+        "answer": 2,
+        "explanation": "True and False belong to the bool data type."
+      },
+      {
+        "question": "Which symbol is used for comments in Python?",
+        "options": ["//", "#", "/* */", "<!-- -->"],
+        "answer": 1,
+        "explanation": "Python uses # for single-line comments."
+      },
+      {
+        "question": "What is the output of print('Hello' * 2)?",
+        "options": ["Hello2", "HelloHello", "Hello*2", "Error"],
+        "answer": 1,
+        "explanation": "String multiplication repeats the string."
+      }
+    ],
+    "medium": [
+      {
+        "question": "What is the output of len([1, 2, 3, 4])?",
+        "options": ["3", "4", "5", "Error"],
+        "answer": 1,
+        "explanation": "The list contains 4 elements."
+      },
+      {
+        "question": "Which method adds an element to a list?",
+        "options": ["add()", "append()", "insert()", "push()"],
+        "answer": 1,
+        "explanation": "append() adds an element to the end of a list."
+      },
+      {
+        "question": "What is the output of 10 // 3?",
+        "options": ["3.33", "3", "4", "Error"],
+        "answer": 1,
+        "explanation": "// performs integer division."
+      },
+      {
+        "question": "Which loop runs at least once in Python?",
+        "options": ["while", "for", "do-while", "None"],
+        "answer": 3,
+        "explanation": "Python does not have a do-while loop."
+      },
+      {
+        "question": "What does dict.keys() return?",
+        "options": ["List", "Tuple", "Set-like view", "String"],
+        "answer": 2,
+        "explanation": "dict.keys() returns a dynamic view object."
+      }
+    ],
+    "hard": [
+      {
+        "question": "What is the time complexity of searching in a Python set?",
+        "options": ["O(n)", "O(log n)", "O(1)", "O(n log n)"],
+        "answer": 2,
+        "explanation": "Sets use hashing, providing average O(1) lookup."
+      },
+      {
+        "question": "What will list(range(2,10,2)) output?",
+        "options": ["[1,3,5,7,9]", "[2,4,6,8]", "[2,4,6,8,10]", "Error"],
+        "answer": 1,
+        "explanation": "range(start, stop, step) generates even numbers up to 8."
+      },
+      {
+        "question": "Which method is used to open a file in binary mode?",
+        "options": ["'wb'", "'rb'", "'br'", "Both 'wb' and 'rb'"],
+        "answer": 3,
+        "explanation": "rb for reading binary, wb for writing binary."
+      },
+      {
+        "question": "What is a lambda function?",
+        "options": ["Anonymous function", "Class method", "Loop", "Module"],
+        "answer": 0,
+        "explanation": "lambda creates small anonymous functions."
+      },
+      {
+        "question": "What is the output of {1,2,2,3}?",
+        "options": ["{1,2,2,3}", "[1,2,3]", "{1,2,3}", "Error"],
+        "answer": 2,
+        "explanation": "Sets remove duplicate values."
+      }
+    ]
+  },
+  "cpp": {
+    "easy": [
+      {
+        "question": "Which symbol ends a statement in C++?",
+        "options": [":", ".", ";", ","],
+        "answer": 2,
+        "explanation": "C++ requires semicolons to end statements."
+      },
+      {
+        "question": "Which library is used for input/output?",
+        "options": ["<math>", "<vector>", "<iostream>", "<string>"],
+        "answer": 2,
+        "explanation": "iostream contains cin and cout."
+      },
+      {
+        "question": "Which keyword creates a variable?",
+        "options": ["var", "let", "int", "new"],
+        "answer": 2,
+        "explanation": "int declares an integer variable."
+      },
+      {
+        "question": "Which of these prints output?",
+        "options": ["cout <<", "cin >>", "out()", "print()"],
+        "answer": 0,
+        "explanation": "cout << is used to print to output."
+      },
+      {
+        "question": "What is the correct file extension for C++?",
+        "options": [".cp", ".c", ".cpp", ".cx"],
+        "answer": 2,
+        "explanation": "C++ source files use .cpp."
+      }
+    ],
+    "medium": [
+      {
+        "question": "Which OOP concept hides implementation details?",
+        "options": ["Polymorphism", "Encapsulation", "Abstraction", "Inheritance"],
+        "answer": 1,
+        "explanation": "Encapsulation wraps data and methods."
+      },
+      {
+        "question": "Which operator allocates memory dynamically?",
+        "options": ["new", "malloc", "alloc", "create"],
+        "answer": 0,
+        "explanation": "new allocates memory in C++."
+      },
+      {
+        "question": "Which is a valid constructor?",
+        "options": ["void Car()", "Car()", "~Car()", "int Car()"],
+        "answer": 1,
+        "explanation": "Constructors have no return type."
+      },
+      {
+        "question": "Which keyword prevents modification?",
+        "options": ["static", "final", "const", "void"],
+        "answer": 2,
+        "explanation": "const makes variables read-only."
+      },
+      {
+        "question": "What does delete do?",
+        "options": ["Allocates memory", "Frees memory", "Creates object", "Ends program"],
+        "answer": 1,
+        "explanation": "delete frees memory allocated with new."
+      }
+    ],
+    "hard": [
+      {
+        "question": "Which type of inheritance forms a diamond problem?",
+        "options": ["Multiple", "Single", "Hierarchical", "Multilevel"],
+        "answer": 0,
+        "explanation": "Multiple inheritance may cause ambiguity."
+      },
+      {
+        "question": "Virtual functions enable?",
+        "options": ["Compile-time polymorphism", "Run-time polymorphism", "Overloading", "Templates"],
+        "answer": 1,
+        "explanation": "Virtual functions allow dynamic binding."
+      },
+      {
+        "question": "What is RAII?",
+        "options": ["Resource Acquisition Is Initialization", "Runtime Access Internal Interface", "Random Access In Input", "None"],
+        "answer": 0,
+        "explanation": "RAII ties resource management to object lifetime."
+      },
+      {
+        "question": "Which cast is safest?",
+        "options": ["static_cast", "reinterpret_cast", "const_cast", "dynamic_cast"],
+        "answer": 3,
+        "explanation": "dynamic_cast checks type safety at runtime."
+      },
+      {
+        "question": "What does the 'this' pointer refer to?",
+        "options": ["Base class", "Global object", "Current object", "Parent class"],
+        "answer": 2,
+        "explanation": "this points to the current instance."
+      }
+    ]
+  },
+  "web": {
+    "easy": [
+      {
+        "question": "HTML stands for?",
+        "options": ["Hyper Trainer Marking Language", "HyperText Markup Language", "HighText Machine Language", "None"],
+        "answer": 1,
+        "explanation": "HTML is HyperText Markup Language."
+      },
+      {
+        "question": "Which tag displays the largest heading?",
+        "options": ["<h6>", "<h1>", "<head>", "<header>"],
+        "answer": 1,
+        "explanation": "<h1> is the largest heading tag."
+      },
+      {
+        "question": "CSS is used for?",
+        "options": ["Database", "Styling", "Back-end", "Debugging"],
+        "answer": 1,
+        "explanation": "CSS styles HTML elements."
+      },
+      {
+        "question": "Which is a JavaScript keyword?",
+        "options": ["printf", "cout", "var", "endl"],
+        "answer": 2,
+        "explanation": "JavaScript uses var, let, const."
+      },
+      {
+        "question": "Which tag inserts an image?",
+        "options": ["<img>", "<pic>", "<image>", "<src>"],
+        "answer": 0,
+        "explanation": "<img> displays images."
+      }
+    ],
+    "medium": [
+      {
+        "question": "Which CSS property changes text color?",
+        "options": ["background", "color", "font-size", "text-color"],
+        "answer": 1,
+        "explanation": "color modifies text color."
+      },
+      {
+        "question": "Which JS method prints to console?",
+        "options": ["print()", "console.log()", "write()", "display()"],
+        "answer": 1,
+        "explanation": "console.log() outputs to browser console."
+      },
+      {
+        "question": "Which protocol does a website use?",
+        "options": ["FTP", "HTTP/HTTPS", "SMTP", "SSH"],
+        "answer": 1,
+        "explanation": "Websites run over HTTP/HTTPS."
+      },
+      {
+        "question": "Which tag creates a link?",
+        "options": ["<a>", "<link>", "<href>", "<url>"],
+        "answer": 0,
+        "explanation": "<a> tags create hyperlinks."
+      },
+      {
+        "question": "What does DOM stand for?",
+        "options": ["Document Object Model", "Data Object Management", "Digital Output Mode", "None"],
+        "answer": 0,
+        "explanation": "DOM represents webpage structure."
+      }
+    ],
+    "hard": [
+      {
+        "question": "Which CSS layout uses flex items?",
+        "options": ["Grid", "Float", "Flexbox", "Table"],
+        "answer": 2,
+        "explanation": "Flexbox manages one-dimensional layouts."
+      },
+      {
+        "question": "Which HTTP method is idempotent?",
+        "options": ["POST", "PUT", "PATCH", "CONNECT"],
+        "answer": 1,
+        "explanation": "PUT can be repeated without changing result."
+      },
+      {
+        "question": "What is event bubbling?",
+        "options": ["Event stops immediately", "Event moves up DOM tree", "Event moves down DOM", "None"],
+        "answer": 1,
+        "explanation": "Events bubble from child to parent."
+      },
+      {
+        "question": "What is CORS?",
+        "options": ["Browser caching", "Cross-Origin Resource Sharing", "Cookie security", "Server routing"],
+        "answer": 1,
+        "explanation": "CORS controls cross-domain requests."
+      },
+      {
+        "question": "What does async/await help with?",
+        "options": ["Synchronous code", "Asynchronous programming", "Styling", "HTML parsing"],
+        "answer": 1,
+        "explanation": "async/await handles asynchronous operations cleanly."
+      }
+    ]
+  },
+  "data": {
+    "easy": [
+      {
+        "question": "Which is a spreadsheet software?",
+        "options": ["Photoshop", "Excel", "PowerPoint", "Word"],
+        "answer": 1,
+        "explanation": "Excel is used for data tables and analysis."
+      },
+      {
+        "question": "What does CSV stand for?",
+        "options": ["Comma Separated Values", "Column Stored View", "Central Server Vault", "None"],
+        "answer": 0,
+        "explanation": "CSV stores data using commas."
+      },
+      {
+        "question": "Which is a type of chart?",
+        "options": ["Pie chart", "Code chart", "Logic chart", "None"],
+        "answer": 0,
+        "explanation": "Pie chart visually represents data."
+      },
+      {
+        "question": "Which is a database?",
+        "options": ["MySQL", "Google", "Chrome", "Notepad"],
+        "answer": 0,
+        "explanation": "MySQL is a relational database."
+      },
+      {
+        "question": "What is the smallest data unit?",
+        "options": ["Bit", "Byte", "KB", "MB"],
+        "answer": 0,
+        "explanation": "Bit is the basic data unit."
+      }
+    ],
+    "medium": [
+      {
+        "question": "Which language is widely used for data analysis?",
+        "options": ["Python", "HTML", "CSS", "C"],
+        "answer": 0,
+        "explanation": "Python has libraries like pandas and numpy."
+      },
+      {
+        "question": "Which SQL command extracts data?",
+        "options": ["UPDATE", "SELECT", "DELETE", "INSERT"],
+        "answer": 1,
+        "explanation": "SELECT retrieves data from tables."
+      },
+      {
+        "question": "Which is a data cleaning step?",
+        "options": ["Adding noise", "Removing duplicates", "Encrypting values", "None"],
+        "answer": 1,
+        "explanation": "Cleaning removes duplicates and errors."
+      },
+      {
+        "question": "Which is a visualization library?",
+        "options": ["NumPy", "Matplotlib", "Flask", "TensorFlow"],
+        "answer": 1,
+        "explanation": "Matplotlib creates plots."
+      },
+      {
+        "question": "Which file type stores structured tables?",
+        "options": ["JSON", "TXT", "CSV", "MP3"],
+        "answer": 2,
+        "explanation": "CSV stores rows and columns."
+      }
+    ],
+    "hard": [
+      {
+        "question": "Which algorithm is used for classification?",
+        "options": ["K-Means", "SVM", "Apriori", "Kruskal"],
+        "answer": 1,
+        "explanation": "SVM is a supervised classification algorithm."
+      },
+      {
+        "question": "What is overfitting?",
+        "options": ["Model performs poorly", "Model memorizes training data", "Model trains fast", "None"],
+        "answer": 1,
+        "explanation": "Overfitting occurs when model memorizes patterns too specifically."
+      },
+      {
+        "question": "Which technique reduces dimensionality?",
+        "options": ["PCA", "Regression", "Bagging", "Clustering"],
+        "answer": 0,
+        "explanation": "PCA reduces high-dimensional data."
+      },
+      {
+        "question": "Which metric measures model accuracy?",
+        "options": ["Recall", "Accuracy", "Precision", "Entropy"],
+        "answer": 1,
+        "explanation": "Accuracy measures correct predictions."
+      },
+      {
+        "question": "Which is a NoSQL database?",
+        "options": ["MongoDB", "MySQL", "PostgreSQL", "Oracle"],
+        "answer": 0,
+        "explanation": "MongoDB is a document-based NoSQL database."
+      }
+    ]
+  }
+}
