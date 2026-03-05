@@ -1,0 +1,71 @@
+{
+    "Swis": {
+        "name": "Swis",
+        "score": 110,
+        "completed_realms": [
+            "data",
+            "web",
+            "cpp"
+        ],
+        "realm_scores": {
+            "web": 10,
+            "cpp": 100
+        },
+        "created_date": "2025-11-08 20:24:57",
+        "last_played": "2025-11-09 18:21:12",
+        "total_playtime": 4487,
+        "realms_played": [],
+        "realm_play_counts": {},
+        "realm_difficulty_stats": {},
+        "last_replay_difference": 0,
+        "favorite_realm_level": "N/A",
+        "last_logout": "2025-11-09 18:21:12"
+    },
+    "simss": {
+        "name": "simss",
+        "score": 100,
+        "completed_realms": [
+            "cpp"
+        ],
+        "realm_scores": {
+            "cpp": 100
+        },
+        "created_date": "2025-11-09 15:16:49",
+        "last_played": "2025-11-09 18:23:41",
+        "total_playtime": 2958,
+        "realms_played": [
+            "cpp"
+        ],
+        "realm_play_counts": {
+            "cpp": 5
+        },
+        "realm_difficulty_stats": {
+            "cpp": {
+                "easy": {
+                    "scores": [
+                        100
+                    ],
+                    "attempts": 5
+                }
+            }
+        },
+        "last_replay_difference": 100,
+        "favorite_realm_level": "cpp:easy (Avg: 100.0)",
+        "last_logout": "2025-11-09 18:23:41"
+    },
+    "Caxs": {
+        "name": "Caxs",
+        "score": 0,
+        "completed_realms": [],
+        "realm_scores": {},
+        "created_date": "2025-11-09 17:51:30",
+        "last_played": "2025-11-09 18:35:12",
+        "total_playtime": 2199,
+        "realms_played": [],
+        "realm_play_counts": {},
+        "realm_difficulty_stats": {},
+        "last_replay_difference": 0,
+        "favorite_realm_level": "N/A",
+        "last_logout": "2025-11-09 18:35:11"
+    }
+}
